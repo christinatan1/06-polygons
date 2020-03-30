@@ -1,0 +1,41 @@
+ident
+
+#base
+box
+170 280 0 75 180 75
+
+line
+200 110 0 200 370 0
+torus
+200 370 0 10 25
+
+line
+170 110 0 230 320 0
+sphere
+230 320 0 20
+
+line
+230 110 20 150 360 20
+sphere
+150 360 20 12
+
+line
+190 110 20 250 390 20
+torus
+250 390 20 5 15
+
+line
+240 110 20 180 320 10
+torus
+180 320 10 6 17
+
+rotate
+y 10
+rotate
+x 30
+
+apply
+display
+
+save
+img.png
