@@ -300,7 +300,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
             #end octant 1 while
             plot(screen, color, x1, y1)
         #end octant 1
-
+ 
         #octant 8
         else:
             d = A - B/2
